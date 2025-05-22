@@ -1,0 +1,58 @@
+.App {
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  h1 {
+    margin-bottom: 1rem;
+  }
+  
+  .chat-window {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    max-width: 800px;
+    margin: 0 auto 1rem;
+    padding: 1rem;
+    padding-bottom: 1.5rem;
+    border-radius: 12px;
+    background-color: #fefefe;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+    height: 500px;
+    overflow-y: auto;
+  }
+  
+  .input-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  textarea {
+    width: 90%;
+    max-width: 700px;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-family: monospace;
+    resize: vertical;
+  }
+  
+  button {
+    padding: 0.5rem 1.2rem;
+    font-size: 1rem;
+    border-radius: 6px;
+    border: none;
+    background-color: #0078d4;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #005fa3;
+  }
+  
